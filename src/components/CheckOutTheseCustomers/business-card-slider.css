@@ -1,0 +1,49 @@
+.slider-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  align-items: center;
+}
+
+.slider .options {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.slider .options button {
+  margin: 0 0.5em;
+}
+
+.slider-navigate {
+  flex-shrink: 0;
+  border: 0;
+  font-size: 20px;
+  background-color: #ffffff00;
+}
+
+.slider-navigate:hover {
+  color: #616161;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.businesscard {
+  background-color: #d1d1d100;
+  border-radius: 23px;
+  max-height: 315px;
+  width: 550px;
+  margin: 0 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .businesscard img {
+    width: 100%;
+  }
+
+  .businesscard {
+    width: 100%;
+  }
+}

@@ -1,0 +1,102 @@
+s.ways-to-share-container {
+    position: relative;
+   
+    height: 700px
+}
+
+.feature-transparent-cards-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.darkbg {
+    background-image: url('../../assets/darkbg.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+
+
+.feature-transparent-cards-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .darkbg {
+        height: 100%;
+    }
+    .feature-transparent-cards-sec {
+      color: #fff!important;
+    }  
+    .feature-transparent-card-description{
+        color: #fff!important;
+
+
+    }
+
+    .ways-to-share-container {
+     
+        height: auto;
+    }
+    
+}
+
+
+  
+@media (min-width: 1080px) and (max-width: 1440px) {
+
+    .feature-transparent-cards-sec {
+        gap: 0em;
+    }
+
+    .ways-to-share-container {
+        height: 600px;
+    }
+
+.step-number {
+    font-size: 3em;
+
+}
+
+.step-icon {
+
+    height: 25px;
+    width: 25px;
+    font-size: 1.5em;
+}
+
+.step-description {
+    font-size: 12px!important;
+    color: #454545;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1079px)
+{
+
+.darkbg{
+    height: auto;
+    color: #fff;
+}}

@@ -1,0 +1,65 @@
+.feature-bits-card{
+    background-color: #ffffff00;
+    width: 16em;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: initial;
+    height: 16em;
+    transition: 0.3s;
+
+
+}
+
+.feature-bits-card:hover{
+    background-color: #ffffff;
+    /* transform: scale(1.02); */
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+   }
+
+.feature-bits-card-description{
+    color: #727272;
+}
+.read-more-link {
+    text-decoration: none;
+    color: #7800c3;
+    font-weight: 500;
+    display: inline-flex; 
+    align-items: center; 
+    transition: transform 0.3s ease;
+}
+
+.read-more-link:hover {
+    transform: scale(1.1); 
+}
+
+.read-more-link svg {
+    margin-left: 10px;
+    transition: transform 0.3s ease; 
+}
+
+
+.read-more-link:hover svg {
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px) {
+    .feature-bits-card {
+width: auto!important;
+ background-color: #efefef;
+    }
+
+    .feature-bits-body .content{
+        text-align: center;
+    }
+}
+
+
+ @media (min-width: 1080px) and (max-width: 1440px) {
+   .feature-bits-body .content{
+        width:500px
+   }
+} 

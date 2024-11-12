@@ -1,0 +1,38 @@
+.feature-transparent-card-container{
+  width: 354px;
+  background: #ddd0;
+  height: auto;
+  border-radius: 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.feature-transparent-card-image{
+height: 318px;
+width: 100%;
+}
+
+.feature-transparent-card-content{
+margin-top: 1em;
+}
+
+.feature-transparent-card-description{
+  color: #727272;
+}
+
+.feature-transparent-card-image img{
+  height: 100%;
+
+}
+
+@media (min-width: 1080px) and (max-width: 1440px) {
+.feature-transparent-card-image {
+  height: 250px;
+  width: 100%;
+}
+
+.feature-transparent-card-content{
+  width: 18em;
+  margin: auto;
+}
+
+}

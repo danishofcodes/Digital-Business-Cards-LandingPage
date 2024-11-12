@@ -1,0 +1,87 @@
+.client-speaks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.client-speaks-slider {
+    width: 1024px;
+    /* padding: 0 10px; */
+    box-sizing: border-box;
+}
+
+.slider-button:hover {
+    transform: scale(1.4);
+}
+
+.nobg {
+    border: none;
+    background-color: #00000000;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.client-speak-card {
+    border: 1px solid #000;
+
+    background-color: #fff;
+    border-radius: 15px;
+    height: 246px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.client-testimonial {
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid #000;
+}
+
+
+.slick-prev:before,
+.slick-next:before,
+.slick-prev,
+.slick-next {
+    display: none !important;
+    ;
+}
+
+
+.client-speak-card::before {
+    content: "";
+    background: #f0eb00;
+    width: 261px;
+    height: 300px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: -1;
+    transform: rotate(88deg);
+}
+
+
+/* Adjust card size for smaller screens */
+@media (max-width: 1024px) {
+    .client-speak-card {
+        min-height: 288px;
+        /* Adjust card height for smaller screens */
+    }
+
+    .client-speaks-slider {
+        width: 100%;
+        /* padding: 0 10px; */
+        box-sizing: border-box;
+    }
+}
+
+.slick-dots{
+    bottom: -22px!important;
+}

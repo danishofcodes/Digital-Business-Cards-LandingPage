@@ -1,0 +1,36 @@
+
+.list-container{
+    display: flex;
+    align-items:start;
+    margin-top: 2em;
+}
+.list-title{
+    margin-bottom: 0.5em;
+}
+
+
+.list-description{
+    font-size: 18px;
+    color: #979797;
+}
+
+.list-icon-container{
+    background: #fcff00;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+
+}
+
+
+@media (max-width: 768px) {
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}

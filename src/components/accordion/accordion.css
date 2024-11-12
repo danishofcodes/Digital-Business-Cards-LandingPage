@@ -1,0 +1,45 @@
+
+.accordion {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 700px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    min-height: 60px;
+    transition: 0.3s;
+
+}
+
+
+.accordion-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    height: 100%;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+
+.text-left{
+    text-align: left;
+}
+
+.accordion-toggler{
+    font-size: 2em;
+    cursor: pointer;
+    border: 0;
+    background-color: #ffffff00;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    flex-shrink: 0;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 2px solid #1f1f1f;
+}
+
+.accordion-info{
+    text-align: left;
+}
